@@ -8,7 +8,7 @@ const NewsFeed = () => {
 
         const options = {
             method: 'GET',
-            url: 'http://localhost:8000/news'
+            url: 'https://cryptobackendbynaitik.herokuapp.com/news'
         }
 
         axios.request(options).then((response) => {
