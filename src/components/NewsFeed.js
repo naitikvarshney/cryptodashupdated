@@ -8,7 +8,7 @@ const NewsFeed = () => {
 
         const options = {
             method: 'GET',
-            url: 'https://cryptobackendbynaitik.herokuapp.com/news'
+            url: 'http://localhost:8000/news'
         }
 
         axios.request(options).then((response) => {
@@ -26,10 +26,10 @@ const NewsFeed = () => {
 
     return (
         <div className="news-feed">
-            <h2 className='news'>News Feed</h2>
+            <h2 className='newss'>News Feed</h2>
             {first7Articles?.map((article, _index) => (
                 <div key={_index}>
-                    <a href={article.url} target='_blank'><p>{article.title}</p></a>
+                    <a className='anchor' href={article.url} target='_blank'><p className='news'>{article.title}</p></a>
                 </div>))}
         </div>
     )
