@@ -30,7 +30,7 @@ const App = () => {
     );
   return (
     <div className="app">
-        <h1>Crypto Dashboard</h1>
+        <h1 className='heading'>Crypto Dashboard</h1>
         <div className="app-wrapper">
             <CurrencyConverter />
             <NewsFeed />
