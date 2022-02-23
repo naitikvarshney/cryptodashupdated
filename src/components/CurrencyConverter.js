@@ -22,7 +22,7 @@ const CurrencyConverter = () => {
 
         const options = {
             method: 'GET',
-            url: 'https://cryptobackendbynaitik.herokuapp.com/convert',
+            url: 'http://localhost:8000/convert',
             params: {from_currency: chosenPrimaryCurrency, function: 'CURRENCY_EXCHANGE_RATE', to_currency: chosenSecondaryCurrency}
         }
 
@@ -96,7 +96,7 @@ const CurrencyConverter = () => {
                     </tbody>
                 </table>
 
-                <button id="convert-button" className='table' onClick={convert}>Convert</button>
+                <button id="convert-button" className='table yoyo1' onClick={convert}>Convert</button>
 
 
             </div>
