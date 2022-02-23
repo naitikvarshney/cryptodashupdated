@@ -31,6 +31,19 @@ body {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     max-width: 300px;
   }
+  .newss{
+    background-color: rgb(204, 204, 231);
+    color: black;
+  }
+  .news{
+    background-color: rgb(204, 204, 231);
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .anchor{
+      color: blue;
+  }
 
   .currency-converter {
     background-color: rgb(230, 223, 211);
@@ -71,9 +84,12 @@ body {
 
   .yoyo{
     background-color: rgb(230, 223, 211);
+    color: black;
+    margin: 15px;
   }
   .table{
     background-color: rgb(218, 227, 238);
+    color: black;
   }
   .inputwala{
 
@@ -83,10 +99,18 @@ body {
 
    background-color: grey;
   }
+  .yoyo1{
+      background-color: rgb(209, 196, 196);
+  }
   .makedef{
 
+
     background-color: rgb(221, 230, 221);
+    color: black;
   }
   .news{
       background-color: rgb(204, 204, 231);
+  }
+  .heading{
+      margin: 15px;
   }
